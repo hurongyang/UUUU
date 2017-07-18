@@ -1,4 +1,5 @@
 __author = "Hu Rongyang"
+# 装饰器
 import time
 
 def timer(func):
@@ -7,7 +8,6 @@ def timer(func):
         func(*args,**kwargs)
         stop_time=time.time()
         print("the func run time is %s"%(stop_time-start_time))
-
     return deco
 
 @timer  #test1=timer(test1)
