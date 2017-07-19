@@ -1,4 +1,5 @@
 __author = "Hu Rongyang"
+#单线程下的并行运算，可以算是最简单的协程（线程下是协程）
 import time
 def consumer(name):
     print("%s 准备吃包子啦!" %name)
@@ -15,7 +16,7 @@ def producer(name):
     print("老子开始准备做包子啦!")
     for i in range(10):
         time.sleep(1)
-        print("做了2个包子!")
+        print("做了1个包子，分两半!")
         c.send(i)
         c2.send(i)
 
