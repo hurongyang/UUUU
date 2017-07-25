@@ -1,6 +1,6 @@
 __author = "Hu Rongyang"
 class Cat:
-    '''定义一个Cat类'''
+    """定义一个Cat类"""
 
     #初始化对象
     def __init__(self,new_name,new_age):
