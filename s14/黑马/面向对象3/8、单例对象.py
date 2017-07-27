@@ -9,6 +9,7 @@ class Dog(object):
 
     def __new__(cls):                      #重写__new__方法
         if cls.__instance == None:
+
             cls.__instance = object.__new__(cls)
             return cls.__instance
         else:
@@ -19,6 +20,7 @@ a = Dog()
 print(id(a))
 b = Dog()
 print(id(b))
+
 '''
 打印结果：
         2249048561480
