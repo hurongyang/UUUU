@@ -9,10 +9,12 @@ class SweetPotato:
         return "地瓜 状态:%s(%d),添加的作料有:%s"%(self.cookedString, self.cookedLevel, str(self.condiments))
 
     def cook(self, cooked_time):
+        '''
+            因为这个方法被调用了多次,为了能够在一次调用这个方法的时候 能够 获取到上一次调用这个方法时的cooked_time
+        所以 需要在此,把cooked_time保存到这个对象的属性中,因为属性不会随着方法的调用而结束(一个方法被调用的时候
+        是可以用局部变量来保存数据的,但是当这个方法定义结束之后这个方法中的所有数据就没有了)
+        '''
 
-        #因为这个方法被调用了多次,为了能够在一次调用这个方法的时候 能够 获取到上一次调用这个方法时的cooked_time
-        #所以 需要在此,把cooked_time保存到这个对象的属性中,因为属性不会随着方法的调用而结束(一个方法被调用的时候
-        #是可以用局部变量来保存数据的,但是当这个方法定义结束之后这个方法中的所有数据就没有了)
         self.cookedLevel += cooked_time
 
         if self.cookedLevel >=0 and self.cookedLevel<3:
@@ -26,6 +28,7 @@ class SweetPotato:
 
     def addCondiments(self, item):
         #因为item这个变量指向了一个 作料,所以 接下来需要将item放到append里面
+
         self.condiments.append(item)
 
 
