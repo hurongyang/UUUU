@@ -11,8 +11,10 @@ class Person(object):
 		if self.gun:
 			return "%s的血量为：%s,他有枪"%(self.name,self.HP)
 		else:
-			return "%s的血量为：%s,他没枪"%(self.name,self.HP)
-
+			if self.HP > 0:
+				return "%s的血量为：%s,他没枪"%(self.name,self.HP)
+			else:
+				return "%s 已挂。。。。。。"%(self.name)
 
 	def anzhuang_zidan(self, dan_jia_temp, zi_dan_temp):
 		"""把子弹装到弹夹中"""
@@ -36,6 +38,9 @@ class Person(object):
 		#枪.开火(敌人)
 		self.gun.fire(diren)
 
+	def diao_xue(self,sha_shang_li):
+		"""根据杀伤力，掉相应的血"""
+		self.HP -= sha_shang_li
 
 class Gun(object):
 	"""枪类"""
@@ -54,6 +59,16 @@ class Gun(object):
 		"""用一个属性来保存这个弹夹对象的引用"""
 		self.danjia = dan_jia_temp
 
+	def fire(self,diren):
+		"""枪从弹夹中获取一发子弹，然后让这发子弹区击中敌人"""
+		#先从弹夹中弹出子弹        弹夹.弹出一发子弹()
+		zidan_temp = self.danjia.tanchu_zidan()
+		#让这个子弹区伤害敌人
+		if zidan_temp:
+			#子弹.打中敌人(敌人)
+			zidan_temp.dazhong(diren)
+		else:
+			print("弹夹中没有子弹了")
 
 class Danjia(object):
 	"""弹夹类"""
@@ -69,6 +84,12 @@ class Danjia(object):
 		"""将这颗子弹保存"""
 		self.zidan_list.append(zi_dan_temp)
 
+	def tanchu_zidan(self):
+		"""弹出最上面的那颗子弹"""
+		if self.zidan_list:
+			return self.zidan_list.pop()
+		else:
+			return None
 
 class Zidan(object):
 	"""子弹类"""
@@ -76,6 +97,10 @@ class Zidan(object):
 		super(Zidan, self).__init__()
 		self.sha_shang_li = sha_shang_li#这颗子弹的威力
 
+	def dazhong(self,diren):
+		"""让敌人掉血"""
+		#敌人.掉血(一颗子弹的威力)
+		diren.diao_xue(self.sha_shang_li)
 
 def main():
 	"""用来控制整个程序的流程"""
@@ -117,6 +142,43 @@ def main():
 	#9. 老王开枪打敌人
 	#老王.扣扳机(隔壁老宋)
 	laowang.kou_ban_ji(gebi_laosong)
+	print(gebi_laosong)
+	print(laowang)
 
+	laowang.kou_ban_ji(gebi_laosong)
+	print(gebi_laosong)
+	print(laowang)
+
+	laowang.kou_ban_ji(gebi_laosong)
+	print(gebi_laosong)
+	print(laowang)
+
+	laowang.kou_ban_ji(gebi_laosong)
+	print(gebi_laosong)
+	print(laowang)
+
+	laowang.kou_ban_ji(gebi_laosong)
+	print(gebi_laosong)
+	print(laowang)
+
+	laowang.kou_ban_ji(gebi_laosong)
+	print(gebi_laosong)
+	print(laowang)
+
+	laowang.kou_ban_ji(gebi_laosong)
+	print(gebi_laosong)
+	print(laowang)
+
+	laowang.kou_ban_ji(gebi_laosong)
+	print(gebi_laosong)
+	print(laowang)
+
+	laowang.kou_ban_ji(gebi_laosong)
+	print(gebi_laosong)
+	print(laowang)
+
+	laowang.kou_ban_ji(gebi_laosong)
+	print(gebi_laosong)
+	print(laowang)
 if __name__ == '__main__':
 	main()
