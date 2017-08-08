@@ -3,7 +3,7 @@ __author__ = "Alex Li"
 import socket
 
 client = socket.socket() #声明socket类型，同时生成socket连接对象
-client.connect(('localhost',6969))
+client.connect(('local1host',9999))
 
 while True:
     msg = input(">>:").strip()
