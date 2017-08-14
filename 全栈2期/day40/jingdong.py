@@ -1,25 +1,21 @@
 #__author:  Administrator
 #date:  2016/10/28
-
-
-
 import socket
 
 def main():
-    sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    sock.bind(('localhost',8089))
-    sock.listen(5)
+    sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)#创建socket对象
+    sock.bind(('localhost',8099))#绑定地址、端口
+    sock.listen(5)#监听
 
     while True:
         connection, address = sock.accept()
         buf = connection.recv(1024)
         print(buf.decode('utf8'))
 
-        #connection.sendall(bytes("HTTP/1.1 201 OK\r\n\r\n","utf8"))
+        # connection.sendall(bytes("HTTP/1.1 201 OK\r\n\r\n","utf8"))
         with open('hello.html','rb') as f:
             data=f.read()
         connection.sendall(data)
-
 
         connection.close()
 
