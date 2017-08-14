@@ -7,29 +7,34 @@
 <body>
 
 
-{"username":"yuan","paword":123}
-<form action="127.0.0.1:8090/index" method="get">
-    <p>姓名：<input type="text" name="username"></p>
-    <p>密码：<input type="password" name="paword"></p>
+<form action="127.0.0.1:8090" method="get">
 
-    <p><input type="button" value="press"></p>
+    <!--{"username":"hurongyang","password":"12345678"}-->
+    <!--name属性是给服务器看的,就是先自定义一个键(name的内容),给服务器传值(输入的内容)的时候以键值对得形式传-->
+    <p>用户名:<input type="text" name="username"></p>
+    <p>密&nbsp;&nbsp;码:<input type="password" name="password"></p>
+    <hr/>
 
-    <p>爱好：篮球<input type="checkbox" name="hobby" value="100" ></p>
+    <p>爱好:篮球<input type="checkbox" name="hobby" value="100"></p>
     <p>乒乓球<input type="checkbox" name="hobby" value="101"></p>
+    <hr/>
 
-<!--name属性是给服务器看的！-->
+    <!--name属性是给服务器看的,就是先自定义一个键（name的内容），给服务器传值（value的值）的时候以键值对得形式传-->
     <p>男<input type="radio" name="sex" value="0"></p>
     <p>女<input type="radio" name="sex" value="1"></p>
+    <hr/>
 
     <p><input type="file"></p>
+    <hr/>
 
     <p><input type="reset" value="重置2"></p>
-    <p><input type="submit" value="press"></p>
+    <hr/>
+
+    <p><input type="submit" value="提交2"></p>
+    <p><input type="button" value="伪提交2"></p>
 
 
 </form>
-
-
 
 
 </body>
