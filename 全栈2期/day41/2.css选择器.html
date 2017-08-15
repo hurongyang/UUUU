@@ -27,12 +27,12 @@
 
         .c1{
             /*class选择器：以.区分*/
-            /*class跟id的区别是，id是唯一的，class可以重复，大量操作*/
+            /*class跟id的区别是，id是唯一的，class属性可以重复，大量操作*/
             background-color: paleturquoise;
         }
 
        #outer .c2 .c1{
-           /*outer下的c1 c2*/
+           /*后代选择器(不限有多少层，儿子，孙子，曾孙。。。都生效)：outer下的c2下，不管有多少层，只要有class="c1"都会变*/
            font-size: 50px;
        }
 
@@ -41,15 +41,22 @@
         }
 
         #outer>.c1>.c3{
-           font-size: 50px;
+            /*子代选择器(只有儿子层生效)：outer下的c1下一层有class="c3"才会变，其余的层有也不会变*/
+           font-size: 150px;
+       }
+
+       #p,#p1{
+           /*并列选择器*/
+           /*id="p"和id="p1" */
        }
 
        #p,#p1,.c6{
-           /*p p1 和c6标签*/
+           /*并列选择器*/
+           /*id="p"和id="p1"和class="c6"*/
            color: saddlebrown;
        }
 
-       #outer+.t{color: red}
+       #outer+.t{color: red}     /*毗邻选择器：下一个生效，上一个不会生效*/
 
     </style>
 
@@ -60,7 +67,12 @@
 
 <div>我是div，但是基本不会用到我</div>
 
-<div id="outer"> hello div
+<div>
+    <p>div下的p</p>
+</div>
+
+<div id="outer">
+    hello div
     <span>hello span</span>
     <p id="p1"> p2.... </p>
     <p class="c1">p3......</p>
