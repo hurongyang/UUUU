@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style>
+        *{
+            /*通用选择器*/
+            font-size: 45px;
+         }
+
+        p{
+            /*标签选择器：根据标签的名字*/
+            background-color: yellow;
+        }
+
+        div{
+            /*div基本是不会用到的，因为html全是div*/
+            color: darkgreen;
+        }
+
+        #p1{
+            /*id选择器：带#号的表示id选择器,用的也不是很多*/
+            font-style: italic;
+        }
+
+        .c1{
+            /*class选择器：以.区分*/
+            /*class跟id的区别是，id是唯一的，class可以重复，大量操作*/
+            background-color: paleturquoise;
+        }
+
+       #outer .c2 .c1{
+           /*outer下的c1 c2*/
+           font-size: 50px;
+       }
+
+        #outer{
+            color: red;
+        }
+
+        #outer>.c1>.c3{
+           font-size: 50px;
+       }
+
+       #p,#p1,.c6{
+           /*p p1 和c6标签*/
+           color: saddlebrown;
+       }
+
+       #outer+.t{color: red}
+
+    </style>
+
+</head>
+<body>
+
+<p id="p"> hello p </p>
+
+<div>我是div，但是基本不会用到我</div>
+
+<div id="outer"> hello div
+    <span>hello span</span>
+    <p id="p1"> p2.... </p>
+    <p class="c1">p3......</p>
+
+    <div class="c1">
+        <p class="c3">p4......</p>
+    </div>
+</div>
+
+<p>ppp</p>
+<p class="t">pppppp</p>
+
+<div class="c6">div3</div>
+
+</body>
+</html>

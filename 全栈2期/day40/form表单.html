@@ -7,8 +7,7 @@
 <body>
 
 
-<form action="127.0.0.1:8090" method="get">
-
+<form action="/index" method="get">
     <!--{"username":"hurongyang","password":"12345678"}-->
     <!--name属性是给服务器看的,就是先自定义一个键(name的内容),给服务器传值(输入的内容)的时候以键值对得形式传-->
     <p>用户名:<input type="text" name="username"></p>
@@ -28,6 +27,30 @@
     <hr/>
 
     <p><input type="reset" value="重置2"></p>
+    <hr/>
+
+    出生地：<select name="city" multiple="multiple" size="4">
+        <optgroup label="河北省">
+            <option value="langfang1">廊坊1</option>
+            <option value="langfang2">廊坊2</option>
+            <option value="langfang3">廊坊3</option>
+            <option value="langfang4">廊坊4</option>
+            <option value="langfang5">廊坊5</option>
+            <option value="langfang6">廊坊6</option>
+            <option value="langfang7">廊坊7</option>
+        </optgroup>
+        <optgroup label="北京市">
+            <option value="dongxicheng">东西城</option>
+            <option value="chaoyang">朝阳</option>
+            <option value="haidian">海淀</option>
+            <option value="fengtai">丰台</option>
+            <option value="daxing">大兴</option>
+        </optgroup>
+        <optgroup label="天津"></optgroup>
+    </select>
+    <hr/>
+
+    <textarea rows="10" cols="50">自我简介</textarea>
     <hr/>
 
     <p><input type="submit" value="提交2"></p>
