@@ -51,15 +51,15 @@
     <favorites_list name="UUUU" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="chouti.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/全栈2期/day43/chouti.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.07890744">
-              <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+            <state vertical-scroll-proportion="0.2897898">
+              <caret line="96" column="26" selection-start-line="96" selection-start-column="18" selection-end-line="96" selection-end-column="26" />
               <folding>
-                <element signature="n#style#0;n#a#9;n#div#0;n#div#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#1;n#div#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -79,14 +79,14 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/s14/day8/socket_client_ssh.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/s14/day10/gevent_socket_server.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/s14/day8/SocketServer_基本.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/s14/黑马/老王开枪/老王开枪-2（实现类、创建对象）.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/s14/黑马/老王开枪/老王开枪-3（安装子弹）.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/s14/黑马/老王开枪/老王开枪-4（安装弹夹到枪中）.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/s14/day9/红路灯.py" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/s14/day8/socket_client_ssh.py" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/s14/day10/gevent_socket_server.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/s14/黑马/老王开枪/老王开枪-8（老王开枪）.py" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/s14/day8/SocketServer_基本.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/s14/day8/socket_server_ssh.py" root0="SKIP_INSPECTION" />
   </component>
   <component name="IdeDocumentHistory">
@@ -152,10 +152,10 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="405" />
-    <option name="y" value="104" />
-    <option name="width" value="1263" />
-    <option name="height" value="876" />
+    <option name="x" value="74" />
+    <option name="y" value="44" />
+    <option name="width" value="1274" />
+    <option name="height" value="883" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -243,6 +243,28 @@
               <option name="myItemId" value="全栈2期" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="day43" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UUUU" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UUUU" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="全栈2期" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -256,30 +278,30 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="ToolWindowEvent Log.ShowToolbar" value="false" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\UUUU\全栈2期\day42" />
-      <recent name="F:\UUUU\全栈2期" />
-      <recent name="C:\Users\root\Desktop\UUUU\s14\day10" />
-      <recent name="C:\Users\root\Desktop\UUUU\s14\day8" />
-      <recent name="C:\Users\root\Desktop\UUUU\s14\day7" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\root\Desktop\UUUU" />
       <recent name="C:\Users\root\Desktop\UUUU\s14\黑马\面向对象3" />
       <recent name="C:\Users\root\Desktop\UUUU\s14\黑马" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\UUUU\全栈2期\day43" />
+      <recent name="F:\UUUU\全栈2期\day42" />
+      <recent name="F:\UUUU\全栈2期" />
+      <recent name="C:\Users\root\Desktop\UUUU\s14\day10" />
+      <recent name="C:\Users\root\Desktop\UUUU\s14\day8" />
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.chouti.html">
@@ -522,10 +544,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="405" y="104" width="1263" height="876" extended-state="0" />
+    <frame x="74" y="44" width="1274" height="883" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14796342" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23970346" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="版本控制" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32882884" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -565,27 +587,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/s14/黑马/老王开枪/老王开枪-1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.37945792">
-          <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/s14/黑马/老王开枪/老王开枪-2（实现类、创建对象）.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.1084166">
-          <caret line="43" column="43" selection-start-line="43" selection-start-column="43" selection-end-line="43" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/s14/黑马/老王开枪/老王开枪-3（安装子弹）.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.5121255">
-          <caret line="53" column="23" selection-start-line="53" selection-start-column="23" selection-end-line="53" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/s14/黑马/老王开枪/老王开枪-4（安装弹夹到枪中）.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3751783">
@@ -907,13 +908,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/全栈2期/day43/images/logo.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/全栈2期/day43/images/icon.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/全栈2期/day43/images/icon_18_118.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/全栈2期/day43/chouti.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.07890744">
-          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+        <state vertical-scroll-proportion="0.2897898">
+          <caret line="96" column="26" selection-start-line="96" selection-start-column="18" selection-end-line="96" selection-end-column="26" />
           <folding>
-            <element signature="n#style#0;n#a#9;n#div#0;n#div#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
