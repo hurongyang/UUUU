@@ -137,7 +137,7 @@
     }
     .top-area{
         overflow: hidden;
-        border-bottom: solid 1px #cc3399;
+        border-bottom: solid 1px #b4b4b4;
     }
     .child-nav .active{
         background: url("images/tip.png") no-repeat 0 -299px;
@@ -148,13 +148,12 @@
         width: 60px;
         height: 26px;
         line-height: 26px;
-        text-align: center;
+        text-align: center;     /*规定文本的水平对齐方式（左边，右边，中间，两端对齐）*/
         color: #369;
         font-weight: 700;
         margin-top: 3px;
     }
     .sort-nav{
-        border: dashed 1px red;
         margin-left: 144px;
         margin-top: 10px;
     }
@@ -175,14 +174,126 @@
         text-align: center;
         margin-top: 8px;
     }
-/*=================================  top area end  =============================*/
+    /*=================================  top area end  =============================*/
+
+    .content-list .item{
+        border-bottom: solid 1px #b4b4b4;
+        margin-top: 10px;
+    }
+    .content-list .item .news-pic{
+        float: right;
+        margin-top: 3px;
+        margin-left: 15px;
+    }
+    .part2 {
+        padding-top: 8px;
+        margin-bottom: 8px;
+        color: #ccc;
+    }
+    .hand-icon{
+        display: inline-block;
+        background: url("images/icon_18_118.png") no-repeat 0 0;
+        width: 18px;
+        height: 18px;
+        vertical-align: -4px;   /*vertical-align设置元素的垂直对齐方式*/
+    }
+    .icon-recommend{
+        background-position: 0 -40px;
+    }
+    .icon-discuss{
+        background-position: 0 -60px;
+
+    }
+    .icon-collect{
+        background-position: 0 -140px;
+
+    }
+    .part2 .user-a span{
+        vertical-align: -4px;
+    }
+    .part2 a{
+        margin-left: 7px;
+    }
+    .part1 .content-source,.part1 .content-kind{
+        color: #d4d4d4;
+    }
+    .part1 .content-kind{
+        text-decoration: underline;
+    }
+    .part1 .show-content{
+        font-size: 14px;
+        color: #369;
+        font-weight: 700;
+    }
+    .part2 b,.part2 .time-into i{
+        color: #d4d4d4;
+    }
+
+    /*======================================  end  ==========================================*/
+
+    .share-icon a{
+        display: inline-block;
+        background: url("images/share_icon.png");
+        width: 17px;
+        height: 14px;
+        vertical-align: -4px;
+        opacity: 0.5;      /*透明度*/
+    }
+    .share-site-to .share-icon a.icon-sina {
+        background-position: 0 -90px;
+    }
+
+    .share-site-to .share-icon a.icon-douban {
+        background-position: 0 -105px;
+    }
+
+    .share-site-to .share-icon a.icon-qqzone {
+        background-position: 0 -120px;
+
+    }
+
+    .share-site-to .share-icon a.icon-tenxun {
+        background-position: 0 -136px;
+    }
+
+    .share-site-to .share-icon a.icon-renren {
+
+        background-position: 0 -151px;
+    }
+    .share-site-to{
+        float: right;
+    }
+    .share-icon a:hover{         /*对share-icon下的a标签设置伪类*/
+        opacity: 1;              /*效果：鼠标悬浮时不透明，点亮*/
+    }
+    .page-area ul li,.ct_page_edge{
+        display: inline-block;
+        float: left;
+        color: #369;
+        height: 34px;
+        line-height: 34px;
+        text-align: center;       /*水平居中*/
+        width: 34px;
+        border: solid 1px #e1e1e1;
+        border-radius: 15%;       /*边框变圆滑*/
+        margin-left: 5px;
+    }
+    .dig_lcpage{
+        margin-left: 10px;
+    }
+    .ct_page_edge{
+        width: 70px;
+    }
+    .page-area ul li:hover{
+        background-color: #2459a2;
+    }
+
+
+
+
 
 
 </style>
-
-
-
-
 
 
 <div class="head-box">
@@ -278,18 +389,15 @@
                                 <b>4</b>
                             </a>
 
-
                             <a href="javascript:;" class="discuss">
                                 <span class="hand-icon icon-discuss"></span>
                                 <b>5</b>
                             </a>
 
-
                             <a href="javascript:;" class="collect" title="加入私藏">
                                 <span class="hand-icon icon-collect"></span>
                                 <b>私藏</b>
                             </a>
-
 
                             <a href="#" class="user-a">
                                 <span>
@@ -385,7 +493,6 @@
                                     <a class="icon-qqzone"  title="分享到QQ空间"  href="#" ></a>
                                     <a class="icon-tenxun"  title="分享到腾讯微博" href="#" ></a>
                                     <a class="icon-renren"  title="分享到人人网"   href="#" ></a>
-
                                 </span>
                             </span>
 
@@ -607,20 +714,22 @@
 			</div>
 
 
-            <div class="page-area">
-                 <ul>
-                     <li><span class="ct_pagepw">1</span></li>
-                     <li><a href="#" class="ct_pagepa">2</a></li>
-                     <li><a href="#" class="ct_pagepa">3</a></li>
-                     <li><a href="#" class="ct_pagepa">4</a></li>
-                     <li><a href="#" class="ct_pagepa">5</a></li>
-                     <li><a href="#" class="ct_pagepa">6</a></li>
-                     <li><a href="#" class="ct_pagepa">7</a></li>
-                     <li><a href="#" class="ct_pagepa">8</a></li>
-                     <li><a href="#" class="ct_pagepa">9</a></li>
-                     <li><a href="#" class="ct_pagepa">10</a></li>
-                     <li><a href="#" class="ct_page_edge">下一页</a></li>
-                 </ul>
+            <div id="page-area" class="page-area">
+                <div class="dig_lcpage">
+                     <ul>
+                         <li><span class="ct_pagepw">1</span></li>
+                         <li><a href="#" class="ct_pagepa">2</a></li>
+                         <li><a href="#" class="ct_pagepa">3</a></li>
+                         <li><a href="#" class="ct_pagepa">4</a></li>
+                         <li><a href="#" class="ct_pagepa">5</a></li>
+                         <li><a href="#" class="ct_pagepa">6</a></li>
+                         <li><a href="#" class="ct_pagepa">7</a></li>
+                         <li><a href="#" class="ct_pagepa">8</a></li>
+                         <li><a href="#" class="ct_pagepa">9</a></li>
+                         <li><a href="#" class="ct_pagepa">10</a></li>
+                             <a href="#" class="ct_page_edge">下一页</a>
+                     </ul>
+                </div>
 			</div>
 
         </div>
