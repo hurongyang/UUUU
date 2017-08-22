@@ -58,7 +58,7 @@
         background-color: #c0cddf;
     }
     .action-menu a.active,.action-menu a.active:hover{   /*"全部"这个文本鼠标悬浮也不会变色，而是设置的深背景色*/
-        color: #fff;
+        color: #fff !important;
         background-color: #204982;
     }
 
@@ -120,6 +120,7 @@
         height: auto !important;   /*!important表示后面的不会覆盖此属性*/
         background-color: #fff;
         min-height: 700px;
+        overflow: hidden;          /*hidden把溢出的部分变成隐藏，如果值是auto,则会变成滚动条下拉查看溢出的部分*/
 
         padding: 6px 28px 60px 28px;
     }
@@ -284,10 +285,23 @@
     .ct_page_edge{
         width: 70px;
     }
-    .page-area ul li:hover{
+    .page-area ul li:hover,.ct_page_edge:hover{
         background-color: #2459a2;
     }
-
+    /*===================================================================================*/
+    .footer-box{
+        background-color: #fff;
+        clear: both;                  /*footer-box左边右边都不能有浮动对象*/
+    }
+    .footer-box .foot-nav {
+        padding-top: 15px;
+        text-align: center;
+        border-top: 1px solid #ccdcef;
+        position: relative;
+    }
+    .footer-box .foot-nav2{
+        text-align: center;
+    }
 
 
 
