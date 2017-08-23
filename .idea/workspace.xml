@@ -17,6 +17,7 @@
     <SUITE FILE_PATH="coverage/UUUU$92.coverage" NAME="9、只初始化一次（2） Coverage Results" MODIFIED="1501159283278" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/s14/黑马/面向对象3" />
     <SUITE FILE_PATH="coverage/UUUU$_3.coverage" NAME="老王开枪-3（安装子弹） Coverage Results" MODIFIED="1501255319679" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/s14/黑马/老王开枪" />
     <SUITE FILE_PATH="coverage/UUUU$decorator.coverage" NAME="decorator高潮版 Coverage Results" MODIFIED="1500653188031" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/s14/day4" />
+    <SUITE FILE_PATH="coverage/UUUU$test.coverage" NAME="test Coverage Results" MODIFIED="1503474802175" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/全栈2期/day45" />
     <SUITE FILE_PATH="coverage/UUUU$15___.coverage" NAME="15-实例方法-类方法-静态方法 Coverage Results" MODIFIED="1501076162808" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/s14/黑马/面向对象2" />
     <SUITE FILE_PATH="coverage/UUUU$13__.coverage" NAME="13-类属性-实例属性 Coverage Results" MODIFIED="1501072663137" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/s14/黑马/面向对象2" />
     <SUITE FILE_PATH="coverage/UUUU$gevent_socket_client.coverage" NAME="gevent_socket_client Coverage Results" MODIFIED="1502690853481" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/s14/day10" />
@@ -28,7 +29,7 @@
     <SUITE FILE_PATH="coverage/UUUU$SocketServer_.coverage" NAME="SocketServer_基本 Coverage Results" MODIFIED="1501860147855" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/s14/day8" />
     <SUITE FILE_PATH="coverage/UUUU$.coverage" NAME="红路灯 Coverage Results" MODIFIED="1502197899961" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/s14/day9" />
     <SUITE FILE_PATH="coverage/UUUU$gevent_socket.coverage" NAME="gevent_socket Coverage Results" MODIFIED="1502287900385" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/s14/day10" />
-    <SUITE FILE_PATH="coverage/UUUU$a.coverage" NAME="a Coverage Results" MODIFIED="1503387474936" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/s14" />
+    <SUITE FILE_PATH="coverage/UUUU$a.coverage" NAME="a Coverage Results" MODIFIED="1503466397872" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/s14" />
     <SUITE FILE_PATH="coverage/UUUU$gevent.coverage" NAME="gevent协程（自动切换） Coverage Results" MODIFIED="1502285099675" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/s14/day10" />
     <SUITE FILE_PATH="coverage/UUUU$socket_client_ssh.coverage" NAME="socket_client_ssh Coverage Results" MODIFIED="1501857533038" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/s14/day8" />
     <SUITE FILE_PATH="coverage/UUUU$socket_client.coverage" NAME="socket_client Coverage Results" MODIFIED="1501858938352" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/s14/day7" />
@@ -53,11 +54,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="控制语句.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/全栈2期/day44/控制语句.html">
+      <file leaf-file-name="Date对象.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/全栈2期/day45/Date对象.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3320965">
-              <caret line="26" column="14" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
+            <state vertical-scroll-proportion="0.14128728">
+              <caret line="50" column="17" selection-start-line="50" selection-start-column="17" selection-end-line="50" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -91,11 +92,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/s14/黑马/面向对象2/4S店.py" />
-        <option value="$PROJECT_DIR$/s14/黑马/面向对象3/4S店.py" />
-        <option value="$PROJECT_DIR$/s14/黑马/面向对象3/设计4S店.py" />
-        <option value="$PROJECT_DIR$/s14/黑马/面向对象3/设计4S店（1）.py" />
-        <option value="$PROJECT_DIR$/s14/黑马/面向对象3/8、单例对象.py" />
         <option value="$PROJECT_DIR$/s14/黑马/面向对象3/9、只初始化一次.py" />
         <option value="$PROJECT_DIR$/s14/黑马/面向对象3/9、只初始化一次（2）.py" />
         <option value="$PROJECT_DIR$/s14/黑马/面向对象3/10、异常处理.py" />
@@ -138,10 +134,15 @@
         <option value="$PROJECT_DIR$/全栈2期/day43/chouti.html" />
         <option value="$PROJECT_DIR$/全栈2期/day44/js.js" />
         <option value="$PROJECT_DIR$/全栈2期/day44/js_lession.html" />
-        <option value="$PROJECT_DIR$/s14/a.py" />
         <option value="$PROJECT_DIR$/全栈2期/day44/js的基本数据类型.html" />
         <option value="$PROJECT_DIR$/全栈2期/day44/js运算符.html" />
         <option value="$PROJECT_DIR$/全栈2期/day44/控制语句.html" />
+        <option value="$PROJECT_DIR$/s14/a.py" />
+        <option value="$PROJECT_DIR$/全栈2期/day44/js_对象.html" />
+        <option value="$PROJECT_DIR$/全栈2期/day45/String对象.html" />
+        <option value="$PROJECT_DIR$/全栈2期/day45/test.py" />
+        <option value="$PROJECT_DIR$/全栈2期/day45/Array对象.html" />
+        <option value="$PROJECT_DIR$/全栈2期/day45/Date对象.html" />
       </list>
     </option>
   </component>
@@ -151,10 +152,10 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="779" />
-    <option name="y" value="160" />
-    <option name="width" value="1091" />
-    <option name="height" value="756" />
+    <option name="x" value="634" />
+    <option name="y" value="51" />
+    <option name="width" value="1261" />
+    <option name="height" value="854" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -203,6 +204,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -235,7 +238,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="day44" />
+              <option name="myItemId" value="day45" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -255,8 +258,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -268,48 +269,48 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\UUUU\全栈2期\day45" />
+      <recent name="F:\UUUU\全栈2期\day44" />
+      <recent name="F:\UUUU\全栈2期\day43" />
+      <recent name="F:\UUUU\全栈2期\day42" />
+      <recent name="F:\UUUU\全栈2期" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\root\Desktop\UUUU" />
       <recent name="C:\Users\root\Desktop\UUUU\s14\黑马\面向对象3" />
       <recent name="C:\Users\root\Desktop\UUUU\s14\黑马" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\UUUU\全栈2期\day43" />
-      <recent name="F:\UUUU\全栈2期\day42" />
-      <recent name="F:\UUUU\全栈2期" />
-      <recent name="C:\Users\root\Desktop\UUUU\s14\day10" />
-      <recent name="C:\Users\root\Desktop\UUUU\s14\day8" />
-    </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.控制语句.html">
-    <configuration default="false" name="chouti.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/UUUU/全栈2期/day43/chouti.html">
+  <component name="RunManager" selected="JavaScript Debug.Date对象.html">
+    <configuration default="false" name="js_对象.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/UUUU/全栈2期/day44/js_对象.html">
       <method />
     </configuration>
-    <configuration default="false" name="js_lession.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/UUUU/全栈2期/day44/js_lession.html">
+    <configuration default="false" name="String对象.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/UUUU/全栈2期/day45/String对象.html">
       <method />
     </configuration>
-    <configuration default="false" name="js的基本数据类型.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/UUUU/全栈2期/day44/js的基本数据类型.html">
-      <method />
-    </configuration>
-    <configuration default="false" name="a" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/s14" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/全栈2期/day45" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="UUUU" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/s14/a.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/全栈2期/day45/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="控制语句.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/UUUU/全栈2期/day44/控制语句.html">
+    <configuration default="false" name="Array对象.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/UUUU/全栈2期/day45/Array对象.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="Date对象.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/UUUU/全栈2期/day45/Date对象.html">
       <method />
     </configuration>
     <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
@@ -506,19 +507,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.chouti.html" />
-      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.js_lession.html" />
-      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.js的基本数据类型.html" />
-      <item index="3" class="java.lang.String" itemvalue="Python.a" />
-      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.控制语句.html" />
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.js_对象.html" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.String对象.html" />
+      <item index="2" class="java.lang.String" itemvalue="Python.test" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.Array对象.html" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.Date对象.html" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.控制语句.html" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.js的基本数据类型.html" />
-        <item index="2" class="java.lang.String" itemvalue="Python.a" />
-        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.js_lession.html" />
-        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.chouti.html" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.Date对象.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.Array对象.html" />
+        <item index="2" class="java.lang.String" itemvalue="Python.test" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.String对象.html" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.js_对象.html" />
       </list>
     </recent_temporary>
   </component>
@@ -536,19 +537,19 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="779" y="160" width="1091" height="756" extended-state="0" />
+    <frame x="634" y="51" width="1261" height="854" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2114452" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19816819" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="版本控制" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32882884" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="1.0" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32789558" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.66993463" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32866043" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32866043" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26168224" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.49509802" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -579,46 +580,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/全栈2期/day40/1.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/全栈2期/day40/jingdong.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/全栈2期/day40/hello.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/全栈2期/day40/lesoon1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.535714">
-          <caret line="29" column="24" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/全栈2期/day40/锚点.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4679803">
-          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/全栈2期/day40/列表.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6403941">
-          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/全栈2期/day40/table标签.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.72577995">
@@ -753,13 +714,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/RDS和SLB并发连接数记录">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.08689024">
-          <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/全栈2期/day43/images/1.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -845,10 +799,38 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/全栈2期/day44/js_lession.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.2888889">
+          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/全栈2期/day44/js.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/全栈2期/day44/js的基本数据类型.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.5">
+          <caret line="54" column="38" selection-start-line="54" selection-start-column="38" selection-end-line="54" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/全栈2期/day44/js运算符.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4">
+          <caret line="93" column="32" selection-start-line="93" selection-start-column="32" selection-end-line="93" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/全栈2期/day43/chouti.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.86153847">
-          <caret line="746" column="18" selection-start-line="746" selection-start-column="18" selection-end-line="746" selection-end-column="18" />
+        <state vertical-scroll-proportion="0.36209813">
+          <caret line="270" column="30" selection-start-line="270" selection-start-column="30" selection-end-line="270" selection-end-column="30" />
           <folding>
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -857,58 +839,82 @@
             <element signature="n#div#2;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#3;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#4;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#a#9;n#div#0;n#div#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#9;n#div#0;n#div#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/全栈2期/day44/js_lession.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.2888889">
-          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/s14/a.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.55791193">
+        <state vertical-scroll-proportion="0.726979">
           <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding>
-            <element signature="e#0#22#0" expanded="true" />
+            <element signature="e#0#22#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/全栈2期/day44/js.js">
+    <entry file="file://$PROJECT_DIR$/全栈2期/day44/js_对象.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/全栈2期/day44/js的基本数据类型.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.5">
-          <caret line="54" column="38" selection-start-line="54" selection-start-column="38" selection-end-line="54" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/全栈2期/day44/js运算符.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4">
-          <caret line="93" column="32" selection-start-line="93" selection-start-column="32" selection-end-line="93" selection-end-column="32" />
+        <state vertical-scroll-proportion="-5.107143">
+          <caret line="82" column="21" selection-start-line="82" selection-start-column="21" selection-end-line="82" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/全栈2期/day44/控制语句.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3320965">
-          <caret line="26" column="14" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
+        <state vertical-scroll-proportion="0.7765766">
+          <caret line="95" column="9" selection-start-line="95" selection-start-column="9" selection-end-line="95" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RDS和SLB并发连接数记录">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.39108062">
+          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/全栈2期/day45/instanceof.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6396396">
+          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/全栈2期/day45/String对象.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.32792792">
+          <caret line="55" column="37" selection-start-line="55" selection-start-column="37" selection-end-line="55" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/全栈2期/day45/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.77186966">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/全栈2期/day45/Array对象.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.15904936">
+          <caret line="70" column="0" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/全栈2期/day45/Date对象.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.14128728">
+          <caret line="50" column="17" selection-start-line="50" selection-start-column="17" selection-end-line="50" selection-end-column="17" />
           <folding />
         </state>
       </provider>
