@@ -54,12 +54,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Date对象.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/全栈2期/day45/Date对象.html">
+      <file leaf-file-name="window 对象(重要).html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/全栈2期/day45/window 对象(重要).html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.14128728">
-              <caret line="50" column="17" selection-start-line="50" selection-start-column="17" selection-end-line="50" selection-end-column="17" />
-              <folding />
+            <state vertical-scroll-proportion="0.4283489">
+              <caret line="24" column="22" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
+              <folding>
+                <element signature="n#style#0;n#input#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -79,23 +81,19 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/s14/day8/socket_client_ssh.py" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/s14/day10/gevent_socket_server.py" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/s14/day8/SocketServer_基本.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/s14/黑马/老王开枪/老王开枪-2（实现类、创建对象）.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/s14/黑马/老王开枪/老王开枪-3（安装子弹）.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/s14/黑马/老王开枪/老王开枪-4（安装弹夹到枪中）.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/s14/day9/红路灯.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/s14/day8/socket_client_ssh.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/s14/day10/gevent_socket_server.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/s14/黑马/老王开枪/老王开枪-8（老王开枪）.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/s14/day8/SocketServer_基本.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/s14/day8/socket_server_ssh.py" root0="SKIP_INSPECTION" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/s14/黑马/面向对象3/9、只初始化一次.py" />
-        <option value="$PROJECT_DIR$/s14/黑马/面向对象3/9、只初始化一次（2）.py" />
-        <option value="$PROJECT_DIR$/s14/黑马/面向对象3/10、异常处理.py" />
-        <option value="$PROJECT_DIR$/s14/黑马/老王开枪/老王开枪-1.py" />
         <option value="$PROJECT_DIR$/s14/黑马/老王开枪/老王开枪-2（实现类）.py" />
         <option value="$PROJECT_DIR$/s14/黑马/老王开枪/老王开枪-3（安装子弹）.py" />
         <option value="$PROJECT_DIR$/s14/黑马/老王开枪/老王开枪-4（安装弹夹到枪中）.py" />
@@ -143,6 +141,10 @@
         <option value="$PROJECT_DIR$/全栈2期/day45/test.py" />
         <option value="$PROJECT_DIR$/全栈2期/day45/Array对象.html" />
         <option value="$PROJECT_DIR$/全栈2期/day45/Date对象.html" />
+        <option value="$PROJECT_DIR$/全栈2期/day45/re对象.html" />
+        <option value="$PROJECT_DIR$/全栈2期/day45/Math对象.html" />
+        <option value="$PROJECT_DIR$/全栈2期/day45/window 对象.html" />
+        <option value="$PROJECT_DIR$/全栈2期/day45/window 对象(重要).html" />
       </list>
     </option>
   </component>
@@ -152,10 +154,10 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="634" />
-    <option name="y" value="51" />
-    <option name="width" value="1261" />
-    <option name="height" value="854" />
+    <option name="x" value="200" />
+    <option name="y" value="55" />
+    <option name="width" value="1231" />
+    <option name="height" value="859" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -205,7 +207,6 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -258,6 +259,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -269,48 +271,33 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\UUUU\全栈2期\day45" />
-      <recent name="F:\UUUU\全栈2期\day44" />
-      <recent name="F:\UUUU\全栈2期\day43" />
-      <recent name="F:\UUUU\全栈2期\day42" />
-      <recent name="F:\UUUU\全栈2期" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\root\Desktop\UUUU" />
       <recent name="C:\Users\root\Desktop\UUUU\s14\黑马\面向对象3" />
       <recent name="C:\Users\root\Desktop\UUUU\s14\黑马" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\root\Desktop\UUUU\全栈2期\day45" />
+      <recent name="F:\UUUU\全栈2期\day45" />
+      <recent name="F:\UUUU\全栈2期\day44" />
+      <recent name="F:\UUUU\全栈2期\day43" />
+      <recent name="F:\UUUU\全栈2期\day42" />
+    </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.Date对象.html">
-    <configuration default="false" name="js_对象.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/UUUU/全栈2期/day44/js_对象.html">
-      <method />
-    </configuration>
-    <configuration default="false" name="String对象.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/UUUU/全栈2期/day45/String对象.html">
-      <method />
-    </configuration>
-    <configuration default="false" name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/全栈2期/day45" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="UUUU" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/全栈2期/day45/test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Array对象.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/UUUU/全栈2期/day45/Array对象.html">
+  <component name="RunManager">
+    <configuration default="false" name="Array对象(重要).html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/UUUU/全栈2期/day45/Array对象(重要).html">
       <method />
     </configuration>
     <configuration default="false" name="Date对象.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/UUUU/全栈2期/day45/Date对象.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="re对象.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/UUUU/全栈2期/day45/re对象.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="Math对象.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/UUUU/全栈2期/day45/Math对象.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="window 对象(重要).html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/UUUU/全栈2期/day45/window 对象(重要).html">
       <method />
     </configuration>
     <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
@@ -507,19 +494,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.js_对象.html" />
-      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.String对象.html" />
-      <item index="2" class="java.lang.String" itemvalue="Python.test" />
-      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.Array对象.html" />
-      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.Date对象.html" />
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.Array对象(重要).html" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.Date对象.html" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.re对象.html" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.Math对象.html" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.window 对象(重要).html" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.Date对象.html" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.Array对象.html" />
-        <item index="2" class="java.lang.String" itemvalue="Python.test" />
-        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.String对象.html" />
-        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.js_对象.html" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.window 对象(重要).html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.Math对象.html" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.re对象.html" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.Date对象.html" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.Array对象(重要).html" />
       </list>
     </recent_temporary>
   </component>
@@ -537,10 +524,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="634" y="51" width="1261" height="854" extended-state="0" />
+    <frame x="200" y="55" width="1231" height="859" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19816819" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21861656" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="版本控制" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32789558" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -580,27 +567,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/全栈2期/day40/table标签.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.72577995">
-          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/全栈2期/day40/lesson2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.428572">
-          <caret line="50" column="29" selection-start-line="50" selection-start-column="29" selection-end-line="50" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/全栈2期/day40/form表单.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6584565">
-          <caret line="61" column="0" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/全栈2期/day42/基本权限管理示例/cersei/bin/app.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -831,17 +797,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.36209813">
           <caret line="270" column="30" selection-start-line="270" selection-start-column="30" selection-end-line="270" selection-end-column="30" />
-          <folding>
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#3;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#4;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#a#9;n#div#0;n#div#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -849,9 +804,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.726979">
           <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#22#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -859,7 +811,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-5.107143">
           <caret line="82" column="21" selection-start-line="82" selection-start-column="21" selection-end-line="82" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -867,7 +818,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.7765766">
           <caret line="95" column="9" selection-start-line="95" selection-start-column="9" selection-end-line="95" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -875,7 +825,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.39108062">
           <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -883,15 +832,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6396396">
           <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/全栈2期/day45/String对象.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.32792792">
-          <caret line="55" column="37" selection-start-line="55" selection-start-column="37" selection-end-line="55" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -899,23 +839,56 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.77186966">
           <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/全栈2期/day45/Array对象.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.15904936">
-          <caret line="70" column="0" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/全栈2期/day45/Date对象.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.14128728">
-          <caret line="50" column="17" selection-start-line="50" selection-start-column="17" selection-end-line="50" selection-end-column="17" />
+        <state vertical-scroll-proportion="0.33566433">
+          <caret line="51" column="16" selection-start-line="51" selection-start-column="16" selection-end-line="51" selection-end-column="16" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/全栈2期/day45/re对象.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6451049">
+          <caret line="24" column="35" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/全栈2期/day45/Math对象.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.31993008">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/全栈2期/day45/String对象(重点).html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.45171338">
+          <caret line="54" column="12" selection-start-line="54" selection-start-column="12" selection-end-line="54" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/全栈2期/day45/Array对象(重要).html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.178572">
+          <caret line="29" column="27" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/全栈2期/day45/window 对象(重要).html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4283489">
+          <caret line="24" column="22" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
+          <folding>
+            <element signature="n#style#0;n#input#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
