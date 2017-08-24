@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Title</title>
+</head>
+
+<body>
+<div id="div1">
+    <div>hello div </div>
+    <p>hello p</p>
+</div>
+
+<script>
+
+//    推荐方式
+        var ele=document.getElementById("div1");
+        var ele_son1=ele.firstElementChild;
+        alert(ele_son1.nodeName);
+
+        var ele_son2=ele.lastElementChild;
+        alert(ele_son2.nodeName);
+
+        var ele_sons=ele.children;
+//        alert(ele_sons.length);
+//        alert(ele_sons[0]);
+
+        for (var i=0;i<ele_sons.length;i++){
+            console.log(ele_sons[i]);
+        }
+
+
+        var ele2=document.getElementById("div1").firstElementChild;
+        var sib=ele2.nextElementSibling;
+        alert(sib.nodeName);
+
+        //这些属性是为了对文档树进行导航;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</script>
+</body>
+</html>
