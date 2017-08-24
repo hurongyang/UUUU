@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<select id="province" onchange="fun1(this)">
+
+</select>
+
+
+<select id="city">
+
+</select>
+
+<script>
+    data={"河北省":["邯郸","廊坊"],"北京市":["海淀","朝阳"],"山东省":["青岛","济南"]};
+//方式一
+    var pro=document.getElementById("province");
+    var city=document.getElementById("city");
+
+    for (var i in data){
+        var option_pro=document.createElement("option");//<option></option>
+        option_pro.innerHTML=i;//<option>河北省</option>
+        pro.appendChild(option_pro)
+    }
+
+    function fun1(self){
+        var choice=(self.options[self.selectedIndex]).innerHTML;
+
+//        var options=city.children;
+//        for (var k=0;k<options.length;k++){
+//            city.removeChild(options[k]);
+//            k--;
+//        }
+
+        city.options.length=0;             //添加城市之前清空以前的城市选项，一面造成城市选项叠加
+
+        for (var n in data[choice]){
+            var option_city=document.createElement("option");//<option></option>
+            option_city.innerHTML=data[choice][n];//<option>城市</option>
+            city.appendChild(option_city)
+    }
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+</script>
+
+</body>
+</html>
