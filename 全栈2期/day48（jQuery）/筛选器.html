@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="jquery-3.2.1.js"></script>
+</head>
+<body>
+
+<div class="div1">hello 1
+    <div class="div8">hello 8</div>
+    <div class="div9">hello 9</div>
+    <div class="div10">hello 10</div>
+    <div class="div2">hello 2
+        <div class="div3">
+            hello 3
+        </div>
+    </div>
+
+    <div class="div3">hello 4</div>
+
+    <div class="div5">hello 5</div>
+    <div class="div6">hello 6</div>
+    <div class="div7">hello 7</div>
+</div>
+<p>hakjfhasjkhfksjahdfa</p>
+
+
+
+
+<script>
+//------------------------------------------筛选器-------------------------------------------
+//================过滤筛选器=================
+//    $("li").eq(2).css("color","green");
+//    $("li").first().css("color","green");
+//    $("ul li").hasClass("test");
+
+
+//================查找筛选器=================
+//    $(".div1").children(".div3").css("color","red");      //hello 4变红，说明.children只找儿子辈
+//    $(".div1").find(".div3").css("color","red");          //hello 3 4变红，说明.find找后代所有
+
+//    $(".div2").next().css("color","red");             //hello 4变红         (同级下一个变红)
+//    $(".div2").nextAll().css("color","red");          //hello 4 5 6 7变红   (同级下所有变红)
+//    $(".div2").nextUntil(".div6").css("color","red"); //hello 4 5变红
+
+//    $(".div2").prev().css("color","red");             //hello 10变红      （向上找一个）
+//    $(".div2").prevAll().css("color","red");          //hello 8 9 10变红  （向上找所有）
+//    $(".div2").prevUntil(".div8").css("color","red"); //hello 9 10变红    （向上范围找，不包含div8）
+
+//    $(".div2").parent().css("color","red");           //div2父亲是div1，div1下的所有文本都会变
+//    $(".div2").parents().css("color","red");          //div2一直向上找，body下文本都会变
+//    $(".div3").parentsUntil("body").css("color","red"); //限定，只找到body那一层，所以只有p标签不变
+
+
+//    $(".div2").siblings().css("color","red");          //上下所有的兄弟标签都变，自己不变
+
+
+
+
+</script>
+
+
+
+</body>
+</html>

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="jquery-3.2.1.js"></script>
+</head>
+<body>
+
+<div class="div">hello div
+    <ul>
+        <li>1111</li>
+        <li>2222</li>
+        <li>3333</li>
+        <li>4444</li>
+    </ul>
+</div>
+
+<p>hello p1</p>
+<p id="p2">hello p2</p>
+
+<div class="outer">
+    <div>
+        <p>hello p3</p>
+    </div>
+    <p>hello p4</p>
+</div>
+
+<div class="div2">hello div2</div>
+
+<p alex="dsb">hello p5</p>
+<p alex="lsb">hello p6</p>
+
+<input type="text">
+<input type="button" value="提交">
+
+
+
+
+
+
+
+<script>
+//-----------------------------jquery语法：$(选择器).action();-------------------------------
+
+//---------------------------------------选择器----------------------------------------------
+//================基本选择器=================
+//    $("*").css("color","red");           //通过通配符修改css属性
+//    $("div").css("color","red");         //通过元素修改css,只有div文本颜色变红
+//    $("#p2").css("color","red");         //通过ID选择器查找
+//    $(".div").css("color","red");        //通过class选择器查找
+//    $(".div,#p2").css("color","red");    //class选择器和id选择器并列
+
+
+//================层级选择器=================
+//    $(".outer p").css("color","red");    //通过后代选择器查找
+//    $(".outer>p").css("color","red");    //通过子代选择器查找（只有儿子p4生效）
+//    $(".outer+p").css("color","red");    //向下毗邻查找，紧挨着的p标签才变，此处毗邻是div2不是p,所以不会变红
+//    $(".outer~p").css("color","red");    //向下查找，兄弟级的p标签，不紧挨着也行
+
+
+//================基本筛选器=================
+//    $(".div ul li:first").css("color","blue");     //第一个li变蓝
+//    $(".div ul li:last").css("color","red");       //取最后一个
+//    $(".div ul li:eq(2)").css("color","green");    //从0开始，取第三个li
+
+//    $(".div ul li:lt(2)").css("color","green");    //取小于2的索引值，即0和1索引
+//    $(".div ul li:gt(2)").css("color","green");    //取大于2的索引值
+
+
+//================属性选择器===========重要=========================
+//    $("[alex]").css("color","red");                //p5和p6都有alex属性，所以都会变红
+//    $("[alex='lsb']").css("color","red");          //只有alex='lsb'的p6变红
+
+
+//================表单选择器=================
+//    $(":button").css("width","300px");             //注意只适用于input标签
+//-------------------------------------------------------------------------------------------
+
+
+
+
+
+//------------------------------------------筛选器-------------------------------------------
+//================过滤筛选器=================
+    $("li").eq(2).css("color","green");
+    $("li").first().css("color","green");
+    $("ul li").hasClass("test");
+
+
+//================查找筛选器=================
+                //见筛选器页面
+
+
+</script>
+
+</body>
+</html>
