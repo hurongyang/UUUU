@@ -57,7 +57,7 @@
       <file leaf-file-name="菜单.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/全栈2期/day48（jQuery）/菜单.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.39786586">
+            <state vertical-scroll-proportion="0.40402478">
               <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
               <folding />
             </state>
@@ -560,8 +560,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="572" y="10" width="1251" height="873" extended-state="1" />
-    <editor active="true" />
+    <frame x="572" y="10" width="1251" height="873" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18387909" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -944,7 +944,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/全栈2期/day48（jQuery）/菜单.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.39786586">
+        <state vertical-scroll-proportion="0.40402478">
           <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
           <folding />
         </state>
