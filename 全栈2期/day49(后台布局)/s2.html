@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="jquery-3.2.1.js"></script>
+    <style>
+        .menu{
+            position: absolute;
+            left: 200px;
+            top: 48px;
+            bottom: 0;
+            width: 220px;
+            border: solid 1px red;
+        }
+        .menu a{
+            display: block;
+        }
+        .active{
+            background-color: sandybrown;
+            color: white;
+
+        }
+        .fafafa{
+            position: fixed;
+            top: 0;
+        }
+    </style>
+</head>
+<body style="margin: 0;" onscroll="Gun()">             //onscroll事件，记录鼠标滚动
+    <div style="height: 48px;background-color: #303a40"></div>
+    <div id="menu" class="menu">
+        <a b="1">菜单一</a>
+        <a b="2">菜单二</a>
+        <a b="3">菜单三</a>
+        <a b="44">菜单四</a>
+    </div>
+    <div id="content" style="position: absolute;left: 420px;right: 200px; top: 48px;bottom: 0px;border: solid 1px black;">
+        <div id="ii1" a="1" style="height: 500px;background-color: #84a42b;"></div>
+        <div id="ii2" a="2" style="height: 900px;background-color: #336699"></div>
+        <div a="3" style="height: 1000px;background-color: #cc3399"></div>
+        <div a="44" style="height: 800px;background-color: aqua"></div>
+    </div>
+
+    <script>
+        function Gun(){
+            var scrollTop = $("body").scrollTop();               //记录鼠标滚动的高度
+            if (scrollTop>48){
+                $("#menu").addClass("fafafa")
+            }else{
+                $("#menu").removeClass("fafafa")
+            }
+            $("#content").children().each(function (){
+                var eleTop = $(this).offset().top;             //offset().top：获取当前标签距离文档顶部高度
+                var winTop = eleTop - scrollTop;
+                var winBottomTop = eleTop + $(this).height() - scrollTop; //height:获取当前标签自身的高度（div高度）；相框里画的高度，不会变
+//                innerHeight()  ==========》 获取一个匹配元素内部区域高度：包括自身的高度、补白、内边距padding，不包括边框border;
+//                outerHeight()  ==========》 获取一个匹配元素外部高度：包括自身高度、补白和四周的边框；设置为true时，计算边距在内
+                if(winTop<=0 && winBottomTop>0){
+                        // 当前内容对应的菜单应该被选中
+                        var a = $(this).attr('a');
+                        $('#menu a[b="'+a+'"]').addClass('active').siblings().removeClass('active');//menu下a标签 a=b属性的加上active样式并且兄弟标签移除active样式
+                        // 不再继续检测其他内容了
+                        return;
+                    }
+            })
+        }
+    </script>
+
+</body>
+</html>
