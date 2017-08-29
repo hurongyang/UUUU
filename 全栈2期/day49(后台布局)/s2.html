@@ -27,7 +27,7 @@
         }
     </style>
 </head>
-<body style="margin: 0;" onscroll="Gun()">             //onscroll事件，记录鼠标滚动
+<body style="margin: 0;" onscroll="Gun()">            <!--onscroll事件，记录鼠标滚动-->
     <div style="height: 48px;background-color: #303a40"></div>
     <div id="menu" class="menu">
         <a b="1">菜单一</a>
@@ -54,6 +54,11 @@
                 var eleTop = $(this).offset().top;             //offset().top：获取当前标签距离文档顶部高度
                 var winTop = eleTop - scrollTop;
                 var winBottomTop = eleTop + $(this).height() - scrollTop; //height:获取当前标签自身的高度（div高度）；相框里画的高度，不会变
+
+
+
+
+
 //                innerHeight()  ==========》 获取一个匹配元素内部区域高度：包括自身的高度、补白、内边距padding，不包括边框border;
 //                outerHeight()  ==========》 获取一个匹配元素外部高度：包括自身高度、补白和四周的边框；设置为true时，计算边距在内
                 if(winTop<=0 && winBottomTop>0){
