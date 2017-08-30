@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .left{
+            float: left;
+        }
+        .clearfix:after{
+            content: '.';
+            display: block;
+            clear: both;
+            visibility: hidden;
+            height: 0;
+        }
+        .container{
+            background-color: green;
+        }
+        .container .item{
+            width: 180px;
+            height: 150px;
+            background-color: #303a40;
+            border: 1px solid saddlebrown;
+            overflow: hidden;              /*溢出部分隐藏*/
+            position: relative;
+        }
+        .hide{
+            display: none;
+        }
+/*=====================鼠标点击背景虚化效果==========================*/
+        .container .item:hover{
+            border: solid 1px red;
+        }
+        .container .item .text{
+            display: none;
+        }
+        .container .item:hover .text{      /*当鼠标放在item上时，item下的text生效*/
+            display: block;
+        }
+/*============================结束====================================*/
+
+
+    </style>
+</head>
+<body>
+
+<div class="container clearfix">
+
+    <div class="item left">
+        <div class="bg">
+            <img style="height: 150px; width: 180px;" src="1.jpg">
+        </div>
+
+        <div class="hide text">
+            <div style="z-index: 9; position: absolute;left: 0;right: 0;top: 0;bottom: 0;background-color: #303a40;opacity: 0.6"></div>
+            <div style="z-index: 10; position: absolute;left: 0;right: 0;top: 0;bottom: 0;color: darkorange">这个美女二十元</div>
+        </div>
+    </div>
+
+    <div class="item left">
+        <div class="bg">
+            <img style="height: 150px; width: 180px;" src="1.jpg">
+        </div>
+    </div>
+
+    <div class="item left">
+        <div class="bg">
+            <img style="height: 150px; width: 180px;" src="1.jpg">
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

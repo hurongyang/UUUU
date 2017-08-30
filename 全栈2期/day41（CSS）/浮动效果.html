@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .menu{
+            background-color: #cc3399;
+        }
+        .left{
+            float: left;
+        }
+        .menu .item{
+            background-color: brown;
+            width: 96%;
+            height: 100px;
+            line-height: 100px;
+            border: solid 1px red;
+            text-align: center;
+        }
+        .clearfix:after{
+        content: '.';
+        display: block;
+        clear: both;
+        visibility: hidden;
+        height: 0;
+        }
+    </style>
+</head>
+<body>
+<div class="menu clearfix">
+    <div class="item left">盒子一</div>
+    <div class="item left">合孜尔</div>
+    <div class="item left">盒子三</div>
+    <div class="item left">和自私</div>
+    <div class="item left">和dasf</div>
+</div>
+</body>
+</html>

@@ -104,14 +104,15 @@
                         <div class='float'></div>
                     </div>
 
-            c. hover的应用
+            c. hover的应用：
+                //第一种方法：
                 .c1{
                     background-color:red;
                 }
                 .c1:hover{
                     background-color:pink;
                 }
-                // 当鼠标放在c1上时，c1下的c2才生效
+                // 第二种方法：当鼠标放在c1上时，c1下的c2才生效
                 .c1:hover .c2{
 
                 }
@@ -123,79 +124,60 @@
     d. 作用域，作用域链
         - 作用域链在函数被解释的过程中已经创建（函数做为作用域）
         - 提前声明
-    
+
+    ---------------------------------------------
         public void func(){
-        
             if(1==1){
                 string name = "alex";
             }
             print(name)
-            
         }
         # 直接报错 ，name未定义
         # Java/C# 代码块做为作用域
-        
-        
+    ----------------------------------------------
         def func():
             if 1==1:
                name = "alex"
             print(name)
         # Python 函数做为作用域
-        
-    
+    ----------------------------------------------
+
+    ----------------------------------------------
+
+
+
         function func(){
             
         }
-        ############### 1、JavaScript中以函数做为作用域 ##############
-        
+        ########################### 1、JavaScript中以函数做为作用域 ################################
         <script>
             xo = 'alex';
-            
             function f1(){
-                
                 var xo = 'eric';
-                
                 function f2(){
-                
                     console.log(xo);
                 }
-                
                 return f2
-            
             }
-            
             var xxxxx = f1()
             xxxxx()
-            
             // eirc
-        
         </script>
         
         ############### 2、JavaScript函数在被调用之前（解释器解释过程中），作用域链已经存在 ##############
-        
         <script>
             xo = 'alex';
-            
             function f1(){
-                
                 var xo = 'eric';
-                
                 function f2(){
-                
                     console.log(xo);
                 }
-                
                 var xo = '666';
-                
                 return f2
-            
             }
-            
             var xxxxx = f1()
             xxxxx()
-            
             // 666
-        
         </script>
         
         
@@ -210,7 +192,8 @@
         }
     
         func()
-        ############### 3、JavaScript 声明提前 ##############
+
+        ################################# 3、JavaScript 声明提前 ###################################
         function func(){ 
             console.log(ox);
             var ox = '  '
@@ -223,12 +206,12 @@
     
     练习：作用域 + js知识
         
-        
-7、jQuery
-    
+
+
+7、 jQuery
     - 找元素（直接，间接）
     - 操作   （属性..）
-    
+
 
 
                         

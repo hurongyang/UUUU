@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="jquery-3.2.1.js"></script>
+</head>
+<body>
+<!--<p onclick="f()">hello world</p>-->
+<p>hello world</p>
+
+<ul>
+    <li>111</li>
+    <li>222</li>
+    <li>333</li>
+    <li>444</li>
+</ul>
+
+<input type="button" value="+" onclick="add()">
+
+
+<script>
+//====================================jQuery下绑定事件方式=====================================
+//绑定事件方法一:
+//    function f(){
+//        $("p").css("color","red");
+//    }
+
+//绑定事件方法二:;
+//    $("p").click(function(){
+//        alert(123)
+//    });
+
+//    $("ul li").click(function(){    //新追加的li没有alert效果
+//        alert(456)
+//    });
+
+    $("ul").on("click","li",function(){     //on绑定事件新追加的li也有alert效果
+        alert(456)
+    });
+
+    function add(){
+        $("ul").append("<li>555</li>")
+    }
+
+//============================================================================================
+
+</script>
+</body>
+</html>

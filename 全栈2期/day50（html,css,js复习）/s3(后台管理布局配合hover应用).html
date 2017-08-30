@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body{
+            margin: 0;
+        }
+        .right{
+            float: right;
+        }
+        .pg-header{
+            height: 48px;
+            background-color: #303a40;
+            color: white;
+            line-height: 48px;
+        }
+        .pg-header .logo{
+            float: left;
+            width: 200px;
+            text-align: center;
+        }
+        .pg-header .user{
+            padding: 0 20px;
+            height: 48px;
+            position: relative;
+        }
+        .pg-header .user .more{
+            width: 200px;
+            border: seagreen solid 1px;
+            position: absolute;
+            top: 48px;
+            right: 20px;
+            background-color: #C0C0C0;
+            display: none;
+            z-index: 11;          /*设置 z-index 11>10；表示more层级在content的上层*/
+        }
+        .pg-header .user .more a{
+            display: block;
+        }
+        .pg-header .user:hover{
+            background-color: darkslategrey;
+        }
+        .pg-header .user:hover .more{
+            display: block;
+        }
+        .pg-header .a img{
+            width: 40px;
+            height: 40px;
+            margin-top: 4px;
+            border-radius: 50%;
+        }
+
+        .pg-body .body-menu{
+            position: absolute;
+            top: 50px;
+            bottom: 0;
+            left: 0;
+            width: 200px;
+            border: solid 1px #336699;
+        }
+        .pg-body .body-content{
+            position: absolute;
+            top: 50px;
+            bottom: 0;
+            left: 210px;
+            right: 0;
+            border: solid 1px blue;
+            overflow: auto;
+            z-index: 10;
+        }
+
+    </style>
+</head>
+<body>
+
+<div class="pg-header">
+    <div class="logo left">Python二班</div>
+    <div class="user right">
+        <a class="a">
+            <img src="1.jpg">
+        </a>
+        <div class="more">
+            <a>我的信息</a>
+            <a>注销</a>
+        </div>
+    </div>
+</div>
+
+<div class="pg-body">
+    <div class="body-menu"></div>
+    <div class="body-content">
+        <p>dfsdf</p>
+        <p>dfsdf</p>
+        <p>dfsdf</p>
+        <p>dfsdf</p>
+        <p>dfsdf</p>
+        <p>dfsdf</p>
+        <p>dfsdf</p>
+        <p>dfsdf</p>
+        <p>dfsdf</p>
+        <p>dfsdf</p>
+        <p>dfsdf</p>
+        <p>dfsdf</p>
+        <p>dfsdf</p>
+        <p>dfsdf</p>
+        <p>dfsdf</p>
+        <p>dfsdf</p>
+        <p>dfsdf</p>
+        <p>dfsdf</p>
+        <p>dfsdf</p>
+        <p>dfsdf</p>
+        <p>dfsdf</p>
+        <p>dfsdf</p>
+        <p>dfsdf</p>
+        <p>dfsdf</p>
+    </div>
+</div>
+
+</body>
+</html>

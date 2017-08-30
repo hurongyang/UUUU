@@ -54,21 +54,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="day50.txt" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/全栈2期/day50（html,css,js复习）/day50.txt">
+      <file leaf-file-name="事件2（jQuery下绑定事件）.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/全栈2期/day50（html,css,js复习）/事件2（jQuery下绑定事件）.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="4.775862">
-              <caret line="127" column="8" selection-start-line="127" selection-start-column="8" selection-end-line="127" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="s1（清除浮动）.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/全栈2期/day50（html,css,js复习）/s1（清除浮动）.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-16.714285">
-              <caret line="29" column="12" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
+            <state vertical-scroll-proportion="0.69855595">
+              <caret line="37" column="58" selection-start-line="37" selection-start-column="58" selection-end-line="37" selection-end-column="58" />
               <folding />
             </state>
           </provider>
@@ -89,28 +79,19 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/s14/day8/socket_client_ssh.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/s14/day10/gevent_socket_server.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/s14/day8/SocketServer_基本.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/s14/黑马/老王开枪/老王开枪-2（实现类、创建对象）.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/s14/黑马/老王开枪/老王开枪-3（安装子弹）.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/s14/黑马/老王开枪/老王开枪-4（安装弹夹到枪中）.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/s14/day9/红路灯.py" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/s14/day8/socket_client_ssh.py" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/s14/day10/gevent_socket_server.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/s14/黑马/老王开枪/老王开枪-8（老王开枪）.py" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/s14/day8/SocketServer_基本.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/s14/day8/socket_server_ssh.py" root0="SKIP_INSPECTION" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/全栈2期/day41/3.属性选择器.html" />
-        <option value="$PROJECT_DIR$/全栈2期/day41/4.css属性1.html" />
-        <option value="$PROJECT_DIR$/全栈2期/day41/5.文本属性.html" />
-        <option value="$PROJECT_DIR$/全栈2期/day41/7.外边距和内边距.html" />
-        <option value="$PROJECT_DIR$/全栈2期/day41/8.练习margin和padding.html" />
-        <option value="$PROJECT_DIR$/全栈2期/day41/test.html" />
-        <option value="$PROJECT_DIR$/全栈2期/day41/float.html" />
-        <option value="$PROJECT_DIR$/全栈2期/day42/抽屉.html" />
-        <option value="$PROJECT_DIR$/RDS和SLB并发连接数记录" />
         <option value="$PROJECT_DIR$/全栈2期/day43/chouti.html" />
         <option value="$PROJECT_DIR$/全栈2期/day44/js.js" />
         <option value="$PROJECT_DIR$/全栈2期/day44/js_lession.html" />
@@ -152,7 +133,16 @@
         <option value="$PROJECT_DIR$/全栈2期/day49(后台布局)/s2.html" />
         <option value="$PROJECT_DIR$/全栈2期/day50/day50.txt" />
         <option value="$PROJECT_DIR$/全栈2期/day50（html,css,js复习）/s1.html" />
+        <option value="$PROJECT_DIR$/全栈2期/day50（html,css,js复习）/A.html" />
+        <option value="$PROJECT_DIR$/全栈2期/day50（html,css,js复习）/浮动效果.html" />
         <option value="$PROJECT_DIR$/全栈2期/day50（html,css,js复习）/day50.txt" />
+        <option value="$PROJECT_DIR$/全栈2期/day50（html,css,js复习）/s2.html" />
+        <option value="$PROJECT_DIR$/全栈2期/day50（html,css,js复习）/s2（hover伪类）.html" />
+        <option value="$PROJECT_DIR$/全栈2期/day50（html,css,js复习）/s3.html" />
+        <option value="$PROJECT_DIR$/全栈2期/day50（html,css,js复习）/s3(后台管理布局配合hover应用).html" />
+        <option value="$PROJECT_DIR$/全栈2期/day50（html,css,js复习）/回顾知识点.txt" />
+        <option value="$PROJECT_DIR$/全栈2期/day50（html,css,js复习）/事件.html" />
+        <option value="$PROJECT_DIR$/全栈2期/day50（html,css,js复习）/事件2（jQuery下绑定事件）.html" />
       </list>
     </option>
   </component>
@@ -162,10 +152,10 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="618" />
-    <option name="y" value="113" />
-    <option name="width" value="1206" />
-    <option name="height" value="827" />
+    <option name="x" value="466" />
+    <option name="y" value="106" />
+    <option name="width" value="1118" />
+    <option name="height" value="771" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -214,7 +204,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -268,6 +257,7 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -279,35 +269,35 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\UUUU\全栈2期\day50（html,css,js复习）" />
+      <recent name="F:\UUUU\全栈2期\day41（CSS）" />
+      <recent name="C:\Users\root\Desktop\UUUU\全栈2期\day50" />
+      <recent name="F:\UUUU\全栈2期\day49(后台布局)" />
+      <recent name="F:\UUUU\全栈2期\day47" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\UUUU\全栈2期\day50（html,css,js复习）" />
       <recent name="F:\UUUU\全栈2期\day48" />
       <recent name="F:\UUUU\全栈2期\day47" />
       <recent name="C:\Users\root\Desktop\UUUU" />
       <recent name="C:\Users\root\Desktop\UUUU\s14\黑马\面向对象3" />
-      <recent name="C:\Users\root\Desktop\UUUU\s14\黑马" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\root\Desktop\UUUU\全栈2期\day50" />
-      <recent name="F:\UUUU\全栈2期\day49(后台布局)" />
-      <recent name="F:\UUUU\全栈2期\day47" />
-      <recent name="F:\UUUU\全栈2期\day46" />
-      <recent name="C:\Users\root\Desktop\UUUU\全栈2期\day45" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.s1（清除浮动）.html">
-    <configuration default="false" name="菜单.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/UUUU/全栈2期/day48（jQuery）/菜单.html">
+  <component name="RunManager" selected="JavaScript Debug.事件2（jQuery下绑定事件）.html">
+    <configuration default="false" name="浮动效果.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/UUUU/全栈2期/day50（html,css,js复习）/浮动效果.html">
       <method />
     </configuration>
-    <configuration default="false" name="chouti.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/UUUU/全栈2期/day43（抽屉）/chouti.html">
+    <configuration default="false" name="s2（hover伪类）.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/UUUU/全栈2期/day50（html,css,js复习）/s2（hover伪类）.html">
       <method />
     </configuration>
-    <configuration default="false" name="s2.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/UUUU/全栈2期/day49(后台布局)/s2.html">
+    <configuration default="false" name="s3(后台管理布局配合hover应用).html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/UUUU/全栈2期/day50（html,css,js复习）/s3(后台管理布局配合hover应用).html">
       <method />
     </configuration>
-    <configuration default="false" name="测试.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/UUUU/全栈2期/day49(后台布局)/测试.html">
+    <configuration default="false" name="事件1(DOM下绑定事件).html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/UUUU/全栈2期/day50（html,css,js复习）/事件1(DOM下绑定事件).html">
       <method />
     </configuration>
-    <configuration default="false" name="s1（清除浮动）.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/UUUU/全栈2期/day50（html,css,js复习）/s1（清除浮动）.html">
+    <configuration default="false" name="事件2（jQuery下绑定事件）.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/UUUU/全栈2期/day50（html,css,js复习）/事件2（jQuery下绑定事件）.html">
       <method />
     </configuration>
     <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
@@ -504,19 +494,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.菜单.html" />
-      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.chouti.html" />
-      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.s2.html" />
-      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.测试.html" />
-      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.s1（清除浮动）.html" />
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.浮动效果.html" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.s2（hover伪类）.html" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.s3(后台管理布局配合hover应用).html" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.事件1(DOM下绑定事件).html" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.事件2（jQuery下绑定事件）.html" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.s1（清除浮动）.html" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.s2.html" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.测试.html" />
-        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.菜单.html" />
-        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.chouti.html" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.事件2（jQuery下绑定事件）.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.事件1(DOM下绑定事件).html" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.s3(后台管理布局配合hover应用).html" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.s2（hover伪类）.html" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.浮动效果.html" />
       </list>
     </recent_temporary>
   </component>
@@ -534,10 +524,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="618" y="113" width="1206" height="827" extended-state="0" />
+    <frame x="466" y="106" width="1118" height="771" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19982548" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23156899" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="版本控制" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32789558" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -577,55 +567,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/全栈2期/day44（JS）/js_lession.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.2888889">
-          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/全栈2期/day44（JS）/js.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/全栈2期/day44（JS）/js的基本数据类型.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.5">
-          <caret line="54" column="38" selection-start-line="54" selection-start-column="38" selection-end-line="54" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/全栈2期/day44（JS）/js运算符.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4">
-          <caret line="93" column="32" selection-start-line="93" selection-start-column="32" selection-end-line="93" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/s14/a.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.726979">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/全栈2期/day44（JS）/js_对象.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.107143">
-          <caret line="82" column="21" selection-start-line="82" selection-start-column="21" selection-end-line="82" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/全栈2期/day44（JS）/控制语句.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7765766">
-          <caret line="95" column="9" selection-start-line="95" selection-start-column="9" selection-end-line="95" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/RDS和SLB并发连接数记录">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.39108062">
@@ -860,7 +801,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5587248">
           <caret line="31" column="35" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -868,7 +808,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.41442952">
           <caret line="13" column="41" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -876,7 +815,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.031879194">
           <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -884,7 +822,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -892,7 +829,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -900,7 +836,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3942953">
           <caret line="22" column="32" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -908,7 +843,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.41442952">
           <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -916,7 +850,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.5302013">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -924,30 +857,82 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.53691274">
           <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
-          <folding>
-            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/全栈2期/day50（html,css,js复习）/s1（清除浮动）.html">
+    <entry file="file://$PROJECT_DIR$/全栈2期/day50（html,css,js复习）/s1清除浮动(after).html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.714285">
-          <caret line="29" column="12" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
+        <state vertical-scroll-proportion="-3.0">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/全栈2期/day50（html,css,js复习）/day50.txt">
+    <entry file="file://$PROJECT_DIR$/全栈2期/day41（CSS）/浮动效果.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="4.775862">
-          <caret line="127" column="8" selection-start-line="127" selection-start-column="8" selection-end-line="127" selection-end-column="8" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/全栈2期/day50（html,css,js复习）/浮动效果.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.9285715">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="26" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/全栈2期/day50（html,css,js复习）/s2（hover伪类）.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6">
+          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/全栈2期/day50（html,css,js复习）/s3(后台管理布局配合hover应用).html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2857143">
+          <caret line="32" column="22" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/全栈2期/day50（html,css,js复习）/回顾知识点.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.46656534">
+          <caret line="209" column="0" selection-start-line="209" selection-start-column="0" selection-end-line="209" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/全栈2期/day50（html,css,js复习）/jquery-3.2.1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/全栈2期/day50（html,css,js复习）/事件1(DOM下绑定事件).html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.107142">
+          <caret line="24" column="10" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/全栈2期/day50（html,css,js复习）/事件2（jQuery下绑定事件）.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.69855595">
+          <caret line="37" column="58" selection-start-line="37" selection-start-column="58" selection-end-line="37" selection-end-column="58" />
           <folding />
         </state>
       </provider>
