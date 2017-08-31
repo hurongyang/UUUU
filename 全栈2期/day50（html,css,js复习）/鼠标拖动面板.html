@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript" src="jquery-3.2.1.js"></script>
+</head>
+<body>
+<div class="container" style="border: 1px solid green;width: 600px;position: absolute;">
+    <div id="title" style="background-color: black;height: 40px;color: white;">
+        标题
+    </div>
+    <div style="height: 300px;">
+        内容
+    </div>
+</div>
+
+<script>
+    $("#title").mouseover(function(){     //绑定mouseover事件，当鼠标放在title上
+        $(this).css("cursor","move");     //修改title样式
+    }).mousedown(function(event){        //绑定mousedown事件，鼠标按下触发函数
+        var start_x = event.screenX;      //获取开始x坐标
+        var start_y = event.screenY;      //获取开始y坐标
+
+        var parent_left = $(this).parent().offset().left;//title父级左偏移
+        var parent_top = $(this).parent().offset().top;  //title父级上偏移
+
+        $(this).on("mousemove",function(e){       //绑定mousemove事件
+            var new_x = e.screenX;      //获取新x坐标
+            var new_y = e.screenY;      //获取新y坐标
+
+            var new_parent_x = parent_left+(new_x-start_x);//title父亲新x偏移
+            var new_parent_y = parent_top+(new_y-start_y); //title父亲新y偏移
+
+            $(this).parent().css("left",new_parent_x+"px");//修改title父亲样式：left
+            $(this).parent().css("top",new_parent_y+"px"); //修改title父亲样式: top
+        }).mouseup(function(){            //绑定鼠标松开事件
+            $(this).off("mousemove");     //关闭mousemove鼠标移动事件
+        })
+    })
+
+
+</script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="jquery-3.2.1.js"></script>
+</head>
+<body>
+
+<p style="display: none">hello wprld</p>
+<input id="show" type="button" value="显示">
+<input id="hide" type="button" value="隐藏">
+<input id="toggle" type="button" value="切换">
+
+<script>
+    $("#show").click(function(){
+        $("p").show(1000);              //show方法：用1秒钟慢慢显示
+    });
+
+    $("#hide").click(function(){
+        $("p").hide(1000);              //hide方法：用1秒钟慢慢隐藏
+    });
+
+    $("#toggle").click(function(){
+        $("p").toggle(1000);            //toggle方法：显示跟隐藏切换
+    })
+</script>
+
+</body>
+</html>
