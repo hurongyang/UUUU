@@ -86,9 +86,9 @@ http://www.cnblogs.com/wupeiqi/articles/5716963.html      索引补充
     '用户'@'IP地址'
         xiaohu@localhost
 
-============================================重要，远程连接======================================
-        
 ================================================================================================
+============================================重要，远程连接=======================================
+        
     a. 解放双手，在重复操作文件，直接将命令发送给mysql服务端，自动操作
     b. 数据库，表，行
     c. 开户和授权
@@ -136,15 +136,20 @@ http://www.cnblogs.com/wupeiqi/articles/5716963.html      索引补充
     表级别------------------------------------------------------------------------------------
         show tables;
         desc tb1;
-        
-        *** create table tb1(nid int, name varchar(10));
+        select * from tbl;
+
+        drop table tb1;     # 直接表删除
+        delete from tb1;    # 清空表内容
+        truncate table tb1; # 清空表内容，速度快，自增回到原点
+
+        ***** create table tb1(id int, name varchar(10));
         # 事务，原子操作，回滚
         
         a. 默认值
         b. 是否可以为空
-        c. 自增列（一张表只能有一个，数字，必须是索引-主键）
+        c. 自增列（一张表只能有一个，为数字，必须是索引,一般设置为主键索引）
         d. 主键索引：
-            一张表只能有一个主键，唯一不能重复，不能为null，- 一般情况下，自增列设置主键
+            一张表只能有一个主键，唯一不能重复，不能为null， 一般情况下，将自增列设置为主键
             1，2，3，4，5，6
             唯一索引：
                 可以为null，一张表可以有多个唯一列
@@ -162,7 +167,7 @@ http://www.cnblogs.com/wupeiqi/articles/5716963.html      索引补充
                 num  int not null,
                 age int,
                 gender int,
-                primary key (name,num)
+                primary key (name,num)       name和num两列联合起来做主键
             )
             约束：
                 name num age
@@ -188,23 +193,28 @@ http://www.cnblogs.com/wupeiqi/articles/5716963.html      索引补充
                     age int default 19
                 )engine=innodb default charset=utf8;
             
-        e.  外键foreign key，一对多
+        e.  外键foreign key：一对多
             两张表建立约束
             -- 约束
             -- foreign key，一对多
+                alter table userinfo add constraint fk_u_p foreign key userinfo(part_nid) references part(nid);
+                alter                   ===>修改表结构
+                add constraint          ===>增加约束
+                fk_u_p                  ===>外键名
+                userinfo(part_nid)      ===>userinfo表part_nid字段外链到part表nid字段
+                references
+                part(nid)               ===>userinfo表part_nid字段外链到part表nid字段
 
         f.  数据类型：数值、时间和字符串
             数值：
                 二进制：
                     bit 二进制
-
                 整数：
                     tinyint
                     smallint
                     int
                     bigint
                         - 范围不一样
-                   
                 小数：
                     decimal --精确的
                             -- 985412154521321.857541245421245845
@@ -215,61 +225,47 @@ http://www.cnblogs.com/wupeiqi/articles/5716963.html      索引补充
             字符串：
                 # 定长
                     char
-                    create table tb13(n char(7),b int, c int)
-                    insert ssss
+                    create table tb13(n char(7),b int, c int)     ====>7表示7个字符
+                    insert ssss                 =========>插入4个字符也占7个字符位置
                     # 查找速度快，浪费空间
-                
-                
                 # 变长
                     varchar
-                    create table tb13(n varchar(7),b int, c int)
-                    insert ssss
-                    insert sssss
-                    insert sssss5
+                    create table tb13(n varchar(7),b int, c int)  ====>7表示7个字符
+                    insert ssss         ======>占4个字符位置
+                    insert sssss        ======>占5个字符位置
+                    insert sssss5       ======>占6个字符位置
                     # 查获找速度慢，节省空间
+
                     text
                     mediumtext
                     longtext
+
             二进制数据：
                 TinyBlob、Blob、MediumBlob、LongBlob
                 # 上传文件
-                # Blob,强制二进制方式
-                # varchar(65), "D:\av.avi" 将上传的文件保存在硬盘， D:\av.avi ;
+                    # Blob,强制二进制方式
+                    # varchar(65), "D:\av.avi" ========>将上传的文件保存在硬盘， D:\av.avi ;
                 
             时间：
                 DATE
                     YYYY-MM-DD（1000-01-01/9999-12-31）
-                    # 1996-12-12 18:45
-
                 TIME
                     HH:MM:SS（'-838:59:59'/'838:59:59'）
-
                 YEAR
                     YYYY（1901/2155）
-
                 DATETIME
-
                     YYYY-MM-DD HH:MM:SS（1000-01-01 00:00:00/9999-12-31 23:59:59    Y）
-
                 TIMESTAMP
-
                     YYYYMMDD HHMMSS（1970-01-01 00:00:00/2037 年某时）
                 
-            enum
+            enum：
                 单选
             
-            集合
+            集合：
                 多选
             
         create table tb13(num decimal(6,2)) #8888.18
-                    
-        drop table tb1;     # 直接表删除
-        
-        delete from tb1;    # 清空表内容
-        truncate table tb1; # 清空表内容，速度快，自增回到远点
-        
-        select * from tbl;
-        
+
     数据行级别 *****----------------------------------------------------------------------------
         select * from tbl;
         
