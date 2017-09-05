@@ -223,12 +223,12 @@ http://www.cnblogs.com/wupeiqi/articles/5716963.html      索引补充
                     DOUBLE  -- 9854121544587984654657494654654654000000000000000000000000
                 
             字符串：
-                # 定长
+                # 定长   char
                     char
                     create table tb13(n char(7),b int, c int)     ====>7表示7个字符
                     insert ssss                 =========>插入4个字符也占7个字符位置
                     # 查找速度快，浪费空间
-                # 变长
+                # 变长   varchar
                     varchar
                     create table tb13(n varchar(7),b int, c int)  ====>7表示7个字符
                     insert ssss         ======>占4个字符位置
@@ -266,35 +266,102 @@ http://www.cnblogs.com/wupeiqi/articles/5716963.html      索引补充
             
         create table tb13(num decimal(6,2)) #8888.18
 
-    数据行级别 *****----------------------------------------------------------------------------
+    数据行级别 *************************************--------------------------------------------------
         select * from tbl;
         
         # 增
             insert into tb1(name,age) values('alex', 18);
-            insert into tb1(name,age) values('alex', 18),('eric', 19),('eric', 19);
-            create 
+            insert into tb1(name,age) values('alex', 18),('eric', 19),('eric', 19);  插入多行数据
+            insert into 表 (列名,列名...) select 列名,列名... from 表(两个表的字段类型不同，必须可以转换才行)
             
         # 删
-        
+            delete from 表
+            delete from 表 where id＝1 and name＝'alex'
         # 改
-        
-        # 查
-        
-        # 其他
-        
-            连表操作：
+            update 表 set name ＝ 'alex' where id>1
+        # 查***************
+            select * from 表
+            select * from 表 where id > 1
+            select nid,name,gender as gg from 表 where id > 1
+        # 其他*************
+            a、条件
+                select * from 表 where id > 1 and name != 'alex' and num = 12;
+                select * from 表 where id between 5 and 16;
+                select * from 表 where id in (11,22,33)
+                select * from 表 where id not in (11,22,33)
+                select * from 表 where id in (select nid from 表)
+
+            b、通配符(模糊匹配)
+                select * from 表 where name like 'ale%'   - ale开头的所有（多个字符串）
+                select * from 表 where name like 'ale_'   - ale开头的所有（一个字符）
+                select * from 表 where name like '_ale%'  - ale开头的所有
+
+            c、限制(分页)
+                select * from 表 limit 5;            - 前5行
+                select * from 表 limit 4,5;          - 从第4行开始的5行
+                select * from 表 limit 5 offset 4    - 从第4行开始的5行
+
+            d、排序
+                select * from 表 order by 列 asc              - 根据 “列” 从小到大排列
+                select * from 表 order by 列 desc             - 根据 “列” 从大到小排列
+                select * from 表 order by 列1 desc,列2 asc    - 根据 “列1” 从大到小排列，如果相同则按列2从小到大排序
+
+            e、分组
+                select num from 表 group by num
+                select num,nid from 表 group by num,nid
+                select num,nid from 表  where nid > 10 group by num,nid order nid desc
+                select num,nid,count(*),sum(score),max(score),min(score) from 表 group by num,nid
+
+                select num from 表 group by num having max(id) > 10  对聚合条件进行筛选，要用having参数
+
+                特别的：group by 必须在where之后，order by之前
+
+            f、连表
+                无对应关系则不显示
+                select A.num, A.name, B.name
+                from A,B
+                Where A.nid = B.nid
+
+                无对应关系则不显示
+                select A.num, A.name, B.name
+                from A inner join B
+                on A.nid = B.nid
+
+                A表所有显示，如果B中无对应关系，则值为null
+                select A.num, A.name, B.name
+                from A left join B
+                on A.nid = B.nid
+
+                B表所有显示，如果B中无对应关系，则值为null
+                select A.num, A.name, B.name
+                from A right join B
+                on A.nid = B.nid
+
                 # 连表
                 select * form a,b where a.x = b.o
-                
+
                 # join,
                     a. left join
                         select * from a LEFT OUTER JOIN b ON a.x = b.o
-                    
+
                     b. inner join ,永远不会出现Null
                         select * from a inner JOIN b ON a.x = b.o
-                    
-                        
-                
+            g、组合
+                组合，自动处理重合
+                select nickname
+                from A
+                union
+                select name
+                from B
+
+                组合，不处理重合
+                select nickname
+                from A
+                union all
+                select name
+                from B
+
+            
 ===========今日内容整理 ================
 1、数据库概念，很多
 2、数据库，表，行
@@ -313,14 +380,11 @@ http://www.cnblogs.com/wupeiqi/articles/5716963.html      索引补充
     数据行 ******：
         增删改查
         其他：
-            limit offset 
-            left join 
-            order by 
+            limit offset
+            left join
+            order by
             group by ,having      max,min,sum,count
             # 条件，模糊，.....
-            
-            
-
         
     
     
