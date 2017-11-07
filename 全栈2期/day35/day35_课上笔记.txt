@@ -317,32 +317,13 @@ http://www.cnblogs.com/wupeiqi/articles/5716963.html      索引补充
                 特别的：group by 必须在where之后，order by之前
 
             f、连表
-                无对应关系则不显示
-                select A.num, A.name, B.name
-                from A,B
-                Where A.nid = B.nid
-
-                无对应关系则不显示
-                select A.num, A.name, B.name
-                from A inner join B
-                on A.nid = B.nid
-
-                A表所有显示，如果B中无对应关系，则值为null
-                select A.num, A.name, B.name
-                from A left join B
-                on A.nid = B.nid
-
-                B表所有显示，如果B中无对应关系，则值为null
-                select A.num, A.name, B.name
-                from A right join B
-                on A.nid = B.nid
 
                 # 连表
                 select * form a,b where a.x = b.o
 
                 # join,
                     a. left join
-                        select * from a LEFT OUTER JOIN b ON a.x = b.o
+                        select * from a LEFT JOIN b ON a.x = b.o
 
                     b. inner join ,永远不会出现Null
                         select * from a inner JOIN b ON a.x = b.o

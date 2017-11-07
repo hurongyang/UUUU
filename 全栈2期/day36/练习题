@@ -4,14 +4,14 @@
         tname varchar(20)
     )engine=innodb default charset=utf8;
 
-    insert into teacher(tname) values('李'),('王'),('张');
+    insert into teacher(tname) values('波多'),('苍空'),('饭岛'),('张磊老师'),('李平老师'),('朱云海老师'),('李杰老师'),('刘海燕老师');
 
      create table class(
         cid int not null auto_increment primary key,
         caption varchar(20)
      )engine=innodb default charset=utf8;
 
-    insert into class(caption) values('一年二班'),('二年三班'),('三年四班');
+    insert into class(caption) values('三年二班'),('一年三班'),('三年一班'),('三年三班'),('二年一班');
 
     create table student(
         sid int not null auto_increment primary key,
@@ -21,7 +21,7 @@
         CONSTRAINT f_ck FOREIGN KEY (class_id) REFERENCES class(cid)
     )engine=innodb default charset=utf8;
 
-    insert into student(sname,gender,class_id) values('钢蛋','女',1),('铁锤','女',1),('山炮','男',3);
+    insert into student(sname,gender,class_id) values('钢蛋','女',1),('铁锤','女',1),('山炮','男',2),('张琳','女',5),('张三','男',4),('小明','男',3);
 
     create table course(
         cid int not null auto_increment primary key,
@@ -30,7 +30,7 @@
         CONSTRAINT t_ck FOREIGN KEY (teacher_id) REFERENCES teacher(tid)
     )engine=innodb default charset=utf8;
 
-    insert into course(cname,teacher_id) values('生物',1),('体育',1),('物理',2);
+    insert into course(cname,teacher_id) values('生物',1),('体育',1),('物理',2),('物理',2),('历史',4),('地质',5),('音乐',3);
 
     create table score(
         sid int not null auto_increment primary key,
@@ -41,4 +41,45 @@
         CONSTRAINT s_ck FOREIGN KEY (corse_id) REFERENCES course(cid)
     )engine=innodb default charset=utf8;
 
-    insert into score(corse_id,student_id,number) values(1,1,60),(1,2,59),(2,2,100);
+    insert into score(corse_id,student_id,number) values (1,1,60),(1,2,59),(2,2,100),(5,3,97),(4,4,30),(2,5,80),(4,6,100);
+
+
+答案：
+3、查询平均成绩大于60分的同学的学号和平均成绩；
+- avg获取平均值
+    select student_id,avg(number) from score group by student_id HAVING avg(number)>60;
+- 连表
+    select * from score LEFT JOIN student on score.student_id = student.sid;
+- 临时表
+    select age,name from (select nid,name,age from tb1 where id>10) as T
+4、查询所有同学的学号、姓名、选课数、总成绩；
+
+5、查询姓“李”的老师的个数；
+select * from teacher where tname like '李%';
+select count(tid) from teacher where tname like '李%';
+6、查询没学过“叶平”老师课的同学的学号、姓名；
+
+7、查询学过“001”并且也学过编号“002”课程的同学的学号、姓名；
+select B.student_id,count(B.student_id) from (select student_id,corse_id from score where corse_id=1 or corse_id=2) as B GROUP BY B.student_id HAVING count(B.student_id)>1;
+8、查询学过“叶平”老师所教的所有课的同学的学号、姓名；
+select * from score where corse_id in (select cid from course left join teacher on course.teacher_id=teacher_id where teacher.tname='李平老师') GROUP BY student_id;
+10、查询有课程成绩小于60分的同学的学号、姓名；
+
+11、查询没有学全所有课的同学的学号、姓名；
+select student_id,COUNT(student_id) from score GROUP BY student_id HAVING COUNT(student_id)<(select COUNT(1) as C from course);
+
+18、查询各科成绩最高和最低的分：以如下形式显示：课程ID，最高分，最低分；
+select corse_id,max(number),MIN(number) from score GROUP BY corse_id;
+
+
+
+
+
+
+
+
+
+
+
+
+
